@@ -1,0 +1,111 @@
+baseurl = "https://genopretkbh.dukop.dk/"
+languageCode = "en-us"
+title = "Genopret Kbh"
+theme = "creative"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Genopret Kbh"
+	description = "Genopret Kbh er et netværk for genoprettende cirkler og retfærdighed i København"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Genopret Kbh"
+
+		[params.navigation.links]
+			about     = "Om genoprettende cirkler"
+			services  = "Øve-sessions"
+			network   = "Netværket"
+			contact   = "Mailliste"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Genopret Kbh er et netværk for genoprettende cirkler og retfærdighed i København"
+		subtitle   = ""
+		buttonText = ""
+
+
+	# About section
+	[params.about]
+		headline    = "Hvad er genoprettende cirkler?"
+		description = "Genoprettende cirkler udviklede sig i Rio de Janeiro i midten af 90'erne som en måde, hvorpå fællesskaber kan støtte dem, der er i konflikt. Cirklerne bringer de tre konfliktende parter sammen – den der har handlet, den der er direkte berørt af handlingen og fællesskabet omkring – og på en sådan måde, at alle parter bliver hørt. Deltagerne inviterer hinanden og indgår i kredsen frivilligt. Processens rammer er delt åbent med alle deltagere og vejledes af et medlem af fællesskabet. Forløbet afsluttes når parterne har bestemt hvilke handlinger der kunne gavne de indblandede. Genoprettende cirkler faciliteres i tre stadier, hvis formål er at forstå de centrale dele af konflikten, at opnå enighed om hvad der må ske fra nu af og så evaluere resultaterne. Cirklerne fremmer en delt kraft, fælles forståelse, ansvar og handling. <br><br>Vil du vide mere? Vi mener man bedst lærer praksissen i rum, hvor der kan stilles spørgsmål. Kom til en af de månedlige øve-sessions og prøv det af. Se mere forneden."
+		#buttonText  = "Se øve-sessions"
+
+	[params.network]
+		headline    = "Om Genopret Kbh"
+		description = "Vi er et lille netværk af mennesker med interesse for genoprettende cirkler og en forankring i København. Vi ønsker en retfærdighed der baserer sig på andre principper end straf for lovovertrædelse og ser os som en del af <a href=https://www.restorativecircles.org/>et voksende internationalt fællesskab</a> der netop har denne vision. Netværket opstod efter et praktisk weekendseminar om genoprettende cirkler i Folkets Hus, efteråret 2018. Vi er stadig et nyt netværk og har foreløbigt fokus på at tilbyde et rum for træning og oplæring. Det sker bl.a. til de månedlige øve-sessions samt netværksmøderne hver tredje måned, hvor vi undersøger et større tema, fx hvad der skal til for at etablere et genoprettende system dér hvor man er. Netværket er også et sted for at få feedback om de udfordringer vi hver især har med at facilitere cirkler eller oprette en genoprettende kultur dér hvor vi er. Du kan blive en del af netværket ved at komme til træning eller tilmelde dig mailinglisten.<br><br>Har du brug for at indkalde til en cirkel og mangler folk omkring dig, der er villige til at facilitere den? Vi tager desværre ikke imod henvendelser foreløbigt, men kan henvise til <a href=https://genoprettendepraksis.dk/>Di Pontis genoprettende praksis</a>."
+		# buttonText  = "Læs mere her"
+
+	# Service section
+	[params.services]
+		headline = "Øve-sessions"
+
+        [[params.services.list]]
+            # icon = "fa-diamond"
+            title = "Månedligt"
+            description = "Hver måned afholder vi øve-sessions​, hvor vi simulerer processen med en genoprettende cirkel."
+
+        [[params.services.list]]
+			#icon = "fa-paper-plane"
+			title = "Cirkeltræning"
+			description = "Én øver sig i at mægle og resten af gruppen øver sig i at være parter i en konflikt. Den simulerede cirkel tager 2½ time inkl. evaluering."
+
+		[[params.services.list]]
+            #icon = "fa-newspaper-o"
+            title = "Åbent for alle"
+            description = "Træningen er åben for alle uden forudgående erfaring. Er man ny, skal man komme en halv time tidligere og få en kort teoretisk indføring."
+
+        [[params.services.list]]
+            #icon = "fa-heart"
+            title = "Hvis du er ny"
+            description = "Giv besked, hvis du er ny på ​genopretkbh@riseup.net"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Hvis du vil lære mere"
+		description = "Vi afholder månedlige øve-sessions, hvor alle kan deltage og lære de tekniske færdigheder som genoprettende cirkler kræver. Skriv til os og kom på maillisten, så får du besked om kommende datoer."
+		# phone = "123-456-6789"
+		# email = "mail@mail.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

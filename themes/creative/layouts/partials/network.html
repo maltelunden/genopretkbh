@@ -1,0 +1,21 @@
+{{ "<!-- network -->" | safeHTML }}
+<section class="bg-dark" id="network">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 text-justify">
+                {{ with .Site.Params.network.headline }}
+                    <h2 class="section-heading" align="left">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.network.headline .Site.Params.network.description }}
+                    <!--<hr class="light">--><br>
+                {{ end }}
+                {{ with .Site.Params.network.description }}
+                    <p class="text-faded" align="left">{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.network.buttonText }}
+                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
