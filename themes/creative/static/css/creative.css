@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: SlateBlue;
+    color: white;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #FFE9D4;
 }
 
 #about a {
@@ -71,7 +71,7 @@ p {
 
 .bg-orange {
     color: #fff;
-    background-color: orange;
+    background-color: #FFE0A1;
 }
 
 .text-faded {

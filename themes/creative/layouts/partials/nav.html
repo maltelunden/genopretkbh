@@ -16,9 +16,9 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
+                {{ if and .Site.Params.network .Site.Params.navigation.links.network }}
                     <li>
-                        <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
+                        <a class="page-scroll" href="#network">{{ .Site.Params.navigation.links.network }}</a>
                     </li>
                 {{ end }}
                 {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
@@ -26,9 +26,9 @@
                         <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Params.network .Site.Params.navigation.links.network }}
+                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>
-                        <a class="page-scroll" href="#network">{{ .Site.Params.navigation.links.network }}</a>
+                        <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                 {{ end }}
                 {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
