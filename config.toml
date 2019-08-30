@@ -1,5 +1,6 @@
 baseurl = "https://genopretkbh.dukop.dk/"
-languageCode = "en-us"
+languageCode = "da"
+DefaultContentLanguage = "da"
 title = "Genopret Kbh"
 theme = "creative"
 googleAnalytics = ""
@@ -26,10 +27,81 @@ googleAnalytics = ""
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
+    # Language
+    
+    [languages]
+        [languages.da]
+            title = "Genopret Kbh"
+            weight = 1
+            [languages.da.params]
 
-	# Navigation
-	[params.navigation]
-		brand = "Genopret Kbh"
+        [languages.en]
+            title = "Restore Cph"
+            weight = 2
+            [languages.en.params]
+
+# ENGELSK VERSION
+
+        # Navigation
+            [languages.en.params.navigation]
+                brand = "Restore Cph"
+
+            [languages.en.params.navigation.links]
+                network   = "About"
+                services  = "Practice sessions"
+                about     = "Restorative circles"
+                contact   = "Mailing list"
+
+        # Hero section
+            [languages.en.params.hero]
+                # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+                slogan     = "Restore Cph is a network for restorative circles and justice in Copenhagen"
+        
+        # About section
+            [languages.en.params.network]
+                headline    = "About Restore Cph"
+                description = "We are a small network of people interested in restorative circles anchored in Copenhagen. We want a form of justice based on other principles than punishment for transgressing laws and see ourselves as part of <a href=https://www.restorativecircles.org/ target=_blank>a growing international community</a> with such a vision. Our network was born after a practical weekend seminar on restorative circles in Folkets Hus, Nørrebro, in the fall of 2018. We are still a new network and at this moment focus mainly on providing a space for training and apprenticeship. This takes place in the monthly practice sessions as well as our network meetings every third month where we explore a larger theme like what it takes to establish a restorative system in the specific context you find yourself in. <br><br>The network is also a space to get feedback on the challenges each of us face in facilitating circles or establishing a restorative culture where we are. You can become a member of the network by showing up to a practice session or by signing up for the mailing list.<br><br>Do you need to call for a circle, but need folks around you willing to facilitate it? Unfortunately, we do not provide facilitation services at the moment, but refer to <a href=https://genoprettendepraksis.dk/ target=_blank>Di Ponti's restorative practiceqw</a>."
+                #buttonText  = "Practice sessions"
+
+            [languages.en.params.about]
+                headline    = "What are restorative circles?"
+                description = "Restorative circles developed in Rio de Janeiro in the middle of the 90s as a way for communities to support those who are in conflict. The circles bring the three conflicting parties together – those who have acted, those who are directly affected by the action as well as the community around them – and in such a way that all parties are heard.<br><br>The participants invite each other and come to the circle voluntarily. The frame of the process shared openly with all participants and is guided by a member of the community. The circle ends when the parties have decided which actions could benefit everyone involved. Restorative circles are facilitated in three stages with the goal of understanding the central parts of the conflict, to reach an agreement on where to go from here and, finally, evaluate the results. The circles promote a shared power, common understanding, responsibility and action. <br><br>Would you like to know more? We believe it is bedst to learn this practice in a space where one can ask questions. Come for one of the monthly practice sessions and try it out. You can learn more below."
+                # buttonText  = "Læs mere her"
+
+        # Service section
+            [languages.en.params.services]
+                headline = "Practice sessions"
+
+            [[languages.en.params.services.list]]
+                # icon = "fa-diamond"
+                title = "Monthly"
+                description = "Every month we host a practice session where we semi-simulate the process of a restorative circle."
+
+            [[languages.en.params.services.list]]
+                #icon = "fa-paper-plane"
+                title = "Circle training"
+                description = "One person practices the role of facilitation and the rest practices being parties to a conflict. The training takes 2,5 hours incl. evaluation."
+
+            [[languages.en.params.services.list]]
+                #icon = "fa-newspaper-o"
+                title = "Open for all"
+                description = "Trainings are open for all regardless of experience. Is this your first time, we would like you to come half an hour early and get a short theoretical introduction."
+
+            [[languages.en.params.services.list]]
+                #icon = "fa-heart"
+                title = "If you are new"
+                description = "If it is your first time, let us know via the mail below."
+
+        # Contact section
+            [languages.en.params.contact]
+                headline = "If you want to learn more"
+                description = "We host monthly practice sessions where anyone can participate and learn the technical skills required by restorative circles. Write us if you have any questions or tell us if you want to sign up for our mail list, then we'll let you know about coming dates."
+
+# DANSK VERSION
+
+        # Navigation
+	       [params.navigation]
+		      brand = "Genopret Kbh"
 
 		[params.navigation.links]
             network   = "Om netværket"			
@@ -64,12 +136,12 @@ googleAnalytics = ""
         [[params.services.list]]
             # icon = "fa-diamond"
             title = "Månedligt"
-            description = "Hver måned afholder vi øve-sessions​, hvor vi simulerer processen med en genoprettende cirkel."
+            description = "Hver måned afholder vi øve-sessions, hvor vi simulerer processen med en genoprettende cirkel."
 
         [[params.services.list]]
 			#icon = "fa-paper-plane"
 			title = "Cirkeltræning"
-			description = "Én øver sig i at mægle og resten af gruppen øver sig i at være parter i en konflikt. Den simulerede cirkel tager 2½ time inkl. evaluering."
+			description = "Én øver sig i at facilitere og resten af gruppen øver sig i at være parter i en konflikt. Den simulerede cirkel tager 2½ time inkl. evaluering."
 
 		[[params.services.list]]
             #icon = "fa-newspaper-o"
