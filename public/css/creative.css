@@ -86,6 +86,16 @@ aside {
     padding: 50px 0;
 }
 
+.language-selector {
+    text-transform: uppercase;
+    color: rgba(255,255,255, 0.9);
+    font-weight: 700;
+}
+
+.language-selector:hover {
+    color:white
+}
+
 .no-padding {
     padding: 0;
 }
