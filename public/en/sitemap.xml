@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://genopretkbh.dukop.dk/en/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="da"
@@ -15,11 +13,8 @@
                 hreflang="en"
                 href="https://genopretkbh.dukop.dk/en/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://genopretkbh.dukop.dk/en/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="da"
@@ -30,11 +25,8 @@
                 hreflang="en"
                 href="https://genopretkbh.dukop.dk/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://genopretkbh.dukop.dk/en/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="da"
@@ -46,5 +38,4 @@
                 href="https://genopretkbh.dukop.dk/en/tags/"
                 />
   </url>
-  
 </urlset>
