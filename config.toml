@@ -25,7 +25,7 @@ googleAnalytics = ""
 	description = "Genopret Kbh er et netværk for genoprettende cirkler og retfærdighed i København"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "uploads/kreds.png"
 
     # Language
     
